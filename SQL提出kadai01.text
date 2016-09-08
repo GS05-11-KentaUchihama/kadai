@@ -1,0 +1,13 @@
+1. SELECT * FROM gs_bm_table WHERE id >= 1 AND id <= 5 AND id != 2 AND id != 4 ;
+
+2. SELECT * FROM gs_bm_table WHERE id >= 4 AND id <=8;
+
+3. SELECT * FROM gs_bm_table WHERE book_name LIKE '%PHP本%’;
+
+4. SELECT * FROM gs_bm_table ORDER BY indate DESC;
+
+5. SELECT * FROM gs_bm_table WHERE indate LIKE '2016-09%';
+
+6. SELECT * FROM gs_bm_table ORDER BY indate DESC LIMIT 5;
+
+7. SELECT COUNT(book_name) as '総数' frrom gs_bm_table where book_name like '%PHP%' GROUP by id;

@@ -1,0 +1,10 @@
+1. UPDATE gs_bm_table SET book_name= 'RB' WHERE id=7;
+
+2. UPDATE gs_bm_table SET book_name= 'RB' WHERE id=7,9;
+
+3. UPDATE gs_bm_table SET book_name= 'PY' WHERE id=3 OR id =9;
+
+4. UPDATE gs_bm_table SET book_name= 'JS' WHERE book_name = 'PHP&JS';
+
+5. UPDATE gs_bm_table SET book_cmt= ‘未入力’ WHERE book_cmt = ‘ ’;
+ 
